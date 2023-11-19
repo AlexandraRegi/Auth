@@ -1,0 +1,36 @@
+.header_container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  width: 100%;
+  background-color: rgba(92, 50, 94, 0.16);
+  padding: 12px 0;
+}
+
+.header_wrapper_left {
+  display: flex;
+  justify-content: left;
+  gap: 5px;
+}
+
+.header_wrapper_right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-pic {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: #dc143c;
+  padding-right: 15px;
+}
